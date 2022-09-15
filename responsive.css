@@ -1,0 +1,30 @@
+@media all and (max-width: 1000px) {
+    .container{
+        width: 100%;
+    }
+
+    .menu-item{
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+   .container{
+       width: 100%;
+   }
+   .menu-item{
+       width: 100%;
+   }
+   .menu-item-image{
+       width: 50%;
+       float: left;
+         
+   }
+   .detail{
+       float: right;
+       text-align: left;
+     
+   }
+
+}
